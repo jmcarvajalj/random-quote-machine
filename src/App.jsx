@@ -26,7 +26,7 @@ export default function App() {
         <h4>- {currentQuote.author}</h4>
       </div>
       <div className="buttons">
-        <a target="_blank" href="twitter.com/intent/tweet" id="tweet-quote" rel="noreferrer"><img id="twitter-logo" src="./src\assets\twitter-logo.png" alt="twitter-logo" /></a>
+        <a target="_blank" href="twitter.com/intent/tweet" id="tweet-quote" rel="noreferrer"><img id="twitter-logo" src="./src/assets/twitter-logo.png" alt="twitter-logo" /></a>
         <button onClick={getNewQuote} id="new-quote">New quote</button>
       </div>
     </div>
